@@ -1,0 +1,52 @@
+[
+  {
+    "name": "api",
+    "path": "/api",
+    "component": "C:\\\\Work\\\\POC's\\\\test2-nuxt-app\\\\pages\\\\api.vue",
+    "chunkName": "pages/api"
+  },
+  {
+    "path": "/users",
+    "component": "C:\\\\Work\\\\POC's\\\\test2-nuxt-app\\\\pages\\\\users.vue",
+    "chunkName": "pages/users",
+    "children": [
+      {
+        "name": "users",
+        "path": "",
+        "component": "C:\\\\Work\\\\POC's\\\\test2-nuxt-app\\\\pages\\\\users\\\\index.vue",
+        "chunkName": "pages/users/index"
+      },
+      {
+        "path": ":id",
+        "component": "C:\\\\Work\\\\POC's\\\\test2-nuxt-app\\\\pages\\\\users\\\\_id.vue",
+        "chunkName": "pages/users/_id",
+        "children": [
+          {
+            "name": "users-id",
+            "path": "",
+            "component": "C:\\\\Work\\\\POC's\\\\test2-nuxt-app\\\\pages\\\\users\\\\_id\\\\index.vue",
+            "chunkName": "pages/users/_id/index"
+          },
+          {
+            "name": "users-id-edit",
+            "path": "edit",
+            "component": "C:\\\\Work\\\\POC's\\\\test2-nuxt-app\\\\pages\\\\users\\\\_id\\\\edit.vue",
+            "chunkName": "pages/users/_id/edit"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "blog-slug",
+    "path": "/blog/:slug?",
+    "component": "C:\\\\Work\\\\POC's\\\\test2-nuxt-app\\\\pages\\\\blog\\\\_slug.vue",
+    "chunkName": "pages/blog/_slug"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "C:\\\\Work\\\\POC's\\\\test2-nuxt-app\\\\pages\\\\index.vue",
+    "chunkName": "pages/index"
+  }
+]
